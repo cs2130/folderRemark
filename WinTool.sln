@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinTool", "WinTool\WinTool.vcxproj", "{759955B7-C657-4658-91A1-5B9AB67AB1EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite", "sqlite\sqlite.vcxproj", "{E39E6673-1EDF-46F0-AB34-1E4B739841D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolderManage", "FolderManage\FolderManage.vcxproj", "{072476E8-883C-47EB-AF72-7289D6D0EB1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{759955B7-C657-4658-91A1-5B9AB67AB1EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{759955B7-C657-4658-91A1-5B9AB67AB1EA}.Debug|Win32.Build.0 = Debug|Win32
+		{759955B7-C657-4658-91A1-5B9AB67AB1EA}.Release|Win32.ActiveCfg = Release|Win32
+		{759955B7-C657-4658-91A1-5B9AB67AB1EA}.Release|Win32.Build.0 = Release|Win32
+		{E39E6673-1EDF-46F0-AB34-1E4B739841D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E39E6673-1EDF-46F0-AB34-1E4B739841D1}.Debug|Win32.Build.0 = Debug|Win32
+		{E39E6673-1EDF-46F0-AB34-1E4B739841D1}.Release|Win32.ActiveCfg = Release|Win32
+		{E39E6673-1EDF-46F0-AB34-1E4B739841D1}.Release|Win32.Build.0 = Release|Win32
+		{072476E8-883C-47EB-AF72-7289D6D0EB1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{072476E8-883C-47EB-AF72-7289D6D0EB1A}.Debug|Win32.Build.0 = Debug|Win32
+		{072476E8-883C-47EB-AF72-7289D6D0EB1A}.Release|Win32.ActiveCfg = Release|Win32
+		{072476E8-883C-47EB-AF72-7289D6D0EB1A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,300" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="400,300">
+	<Include source="scrollbar.xml" />
+	<Default name="Option" value="width=&quot;60&quot; height=&quot;20&quot; align=&quot;left&quot; textpadding=&quot;18,6,0,0&quot; textcolor=&quot;#FF000000&quot; disabledtextcolor=&quot;#FFA7A6AA&quot; selectedimage=&quot;file='skintool/RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='skintool/RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;"/>
+	<VerticalLayout bkcolor="#FFBDEDFF" bkcolor2="#00BDEDFF" bordercolor="#00BDEDFF">
+        <HorizontalLayout height="27" bkcolor="#FFBDEDFF">
+            <VerticalLayout width="10" height="27" />
+            <VerticalLayout height="27">
+                <!--
+				<Container width="20" height="20" bkimage="skintool\anchor.png" />
+				-->
+                <Label text="添加备注" float="true" pos="5,5,0,0" width="246" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+            <VerticalLayout width="40" height="27">
+                <Button name="closebtn" float="true" pos="5,2,0,0" width="35" height="20" bkimage="file=&apos;skintool\sys_close.png&apos; source=&apos;0,0,35,20&apos;" textcolor="#FF000000" disabledtextcolor="#FFBDEDFF" align="center" normalimage="file=&apos;skintool\sys_close.png&apos; source=&apos;0,0,35,20&apos;" hotimage="file=&apos;skintool\sys_close.png&apos; source=&apos;35,0,70,20&apos;" pushedimage="file=&apos;skintool\sys_close.png&apos; source=&apos;70,0,105,20&apos;" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <VerticalLayout bkcolor="#FDBDEDAA">
+			<Label text="路径:" float="true" pos="26,15,0,0" width="60" height="17" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+			<RichEdit name="path" float="true" pos="75,14,0,0" width="299" height="21" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" autohscroll="true" readonly="true" />
+			<Label text="路径:" float="true" pos="26,45,0,0" width="60" height="17" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+			<RichEdit name="info" float="true" pos="75,45,0,0" width="299" height="165" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" multiline="true" vscrollbar="true" autovscroll="true" enabled="true" rich="true" readonly="false" />
+			
+			<Button name="ok" text="确  定" float="true" pos="100,220,0,0" width="65" height="23" bkimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" hotimage="file=&apos;skintool\button.png&apos; source=&apos;0,23,65,46&apos;" pushedimage="file=&apos;skintool\button.png&apos; source=&apos;0,46,65,69&apos;" />
+			<Button name="cancel" text="取  消" float="true" pos="235,220,0,0" width="65" height="23" bkimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" hotimage="file=&apos;skintool\button.png&apos; source=&apos;0,23,65,46&apos;" pushedimage="file=&apos;skintool\button.png&apos; source=&apos;0,46,65,69&apos;" />
+		</VerticalLayout>
+
+        <HorizontalLayout height="20" bkcolor="#FFBDEDF0" />
+    </VerticalLayout>
+</Window>

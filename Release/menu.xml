@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" size="120,60">
+ <Font id="0" name="宋体" size="13" bold="false"/>
+ <Font id="1" name="宋体" size="12"/>
+<VerticalLayout bkimage="file='Menu\menu_bk.png' corner='40,8,8,8'" hole="false">
+	<List header="hidden" inset="8,8,8,8" itemhotimage="file='Menu\menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF0000FF">
+		<ListContainerElement name="menu_open" height="22" inset="40,0,0,0">
+			<Label text="显示" mouse="false"/>
+		</ListContainerElement>
+		<ListContainerElement name="menu_exit" height="22" inset="40,0,0,0">
+			<Label text="退出" mouse="false"/>
+		</ListContainerElement>
+	</List>
+</VerticalLayout>
+</Window>

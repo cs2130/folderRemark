@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="270,129" caption="0,0,0,32">
+    <VerticalLayout width="276" height="133" bkcolor="#FDBDED99">
+        <HorizontalLayout width="270" height="25" bkcolor="#FFBDEDFF">
+            <VerticalLayout width="232" height="25">
+                <Label name="title" float="true" pos="6,4,0,0" width="87" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+            <HorizontalLayout height="25">
+                <Button name="close" float="true" pos="0,3,0,0" width="35" height="20" bkimage="file=&apos;skintool\sys_close.png&apos; source=&apos;0,0,35,20&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skintool\sys_close.png&apos; source=&apos;0,0,35,20&apos;" hotimage="file=&apos;skintool\sys_close.png&apos; source=&apos;35,0,70,20&apos;" pushedimage="file=&apos;skintool\sys_close.png&apos; source=&apos;70,0,105,20&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout>
+            <Button name="ok" text="确  定" float="true" pos="45,76,0,0" width="65" height="23" bkimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" hotimage="file=&apos;skintool\button.png&apos; source=&apos;0,23,65,46&apos;" pushedimage="file=&apos;skintool\button.png&apos; source=&apos;0,46,65,69&apos;" />
+            <Button name="cancel" text="取  消" float="true" pos="161,76,0,0" width="65" height="23" bkimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skintool\button.png&apos; source=&apos;0,0,65,23&apos;" hotimage="file=&apos;skintool\button.png&apos; source=&apos;0,23,65,46&apos;" pushedimage="file=&apos;skintool\button.png&apos; source=&apos;0,46,65,69&apos;" />
+            <Text name="body" float="true" pos="17,12,0,0" width="241" height="59" textpadding="2,0,2,0" align="wrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
